@@ -256,9 +256,9 @@ nav a {
   height: 100%;
   background-color: lightgray;
   background-image: url("./images/intro/gear.png");
-  background-size: 100%;
+  background-size: 500px;
   background-repeat: no-repeat;
-  background-position: 225px; }
+  background-position: calc(0.18 * 100vw); }
 
 .just-relax__content {
   background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("./images/intro/intro.png");
