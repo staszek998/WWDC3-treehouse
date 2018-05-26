@@ -10,6 +10,7 @@
 nav {
   a {
     margin: 0 10px;
+    font-family: sans-serif;
 
     &:first-child {
       margin-left: 0;
@@ -27,4 +28,8 @@ nav {
   flex-wrap: nowrap;
   justify-content: space-between;
   align-items: center;
+
+  span {
+    font-family: sans-serif;
+  }
 }

@@ -3,6 +3,8 @@ import iconHeart from "../../images/intro/icon-heart.png";
 import iconMobile from "../../images/intro/icon-mobile.png";
 import iconGraph from "../../images/intro/icon-graph.png";
 import Service from "../components/intro/Service";
+import ButtonGreen from "../components/ButtonGreen";
+import ListItem from "../components/intro/ListItem";
 const shortLorem =
   "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae vel modi, officia perferendis molestias possimus aliquam minus non cupiditate quia placeat velit harum excepturi libero, voluptatem quidem. Vero, laborum.";
 
@@ -34,6 +36,20 @@ class Intro extends Component {
               title="MARKETING TOOLS"
               description={shortLorem}
             />
+          </div>
+        </div>
+        <div className="intro__just-relax">
+          <div className="just-relax__gear" />
+          <div className="just-relax__content">
+            <span className="section-title">
+              JUST RELAX &<br />
+              LET US DO THE HEAVY LIFTING
+            </span>
+            <span className="section-subtitle">{shortLorem}</span>
+            <ListItem />
+            <ListItem />
+            <ListItem />
+            <ButtonGreen text="LEARN MORE" />
           </div>
         </div>
       </section>
