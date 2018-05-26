@@ -1,0 +1,33 @@
+.header__background {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("./images/header.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 600px;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.header__text {
+  margin: 20px 0;
+  font-size: 20px;
+}
+
+.header__text,
+.header__title {
+  font-family: sans-serif;
+  color: white;
+  font-weight: bold;
+}
+
+.header__title {
+  font-size: 60px;
+  text-align: center;
+}
