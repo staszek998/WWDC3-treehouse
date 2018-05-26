@@ -45,10 +45,10 @@ class Intro extends Component {
               JUST RELAX &<br />
               LET US DO THE HEAVY LIFTING
             </span>
-            <span className="section-subtitle">{shortLorem}</span>
-            <ListItem />
-            <ListItem />
-            <ListItem />
+            <span className="section-subtitle just-relax__subtitle">{shortLorem}</span>
+            <ListItem itemText="Initial Setup & Customisations" />
+            <ListItem itemText="Regular Updates" />
+            <ListItem itemText="Round The Clock Support" />
             <ButtonGreen text="LEARN MORE" />
           </div>
         </div>

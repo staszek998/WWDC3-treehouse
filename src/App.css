@@ -174,6 +174,17 @@ div.container {
   font-family: sans-serif;
   text-align: center; }
 
+.just-relax__list-item {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: center;
+  height: 30px; }
+  .just-relax__list-item span {
+    margin-left: 10px;
+    font-family: sans-serif; }
+
 .nav {
   display: flex;
   flex-direction: row;
@@ -275,3 +286,6 @@ nav a {
   align-items: flex-start; }
   .just-relax__content span {
     color: white; }
+
+.just-relax__subtitle {
+  max-width: 800px; }

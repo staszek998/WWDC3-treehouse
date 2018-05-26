@@ -1,0 +1,13 @@
+.just-relax__list-item {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: center;
+  height: 30px;
+
+  span {
+    margin-left: 10px;
+    font-family: sans-serif;
+  }
+}
