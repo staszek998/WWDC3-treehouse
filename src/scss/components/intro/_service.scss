@@ -1,0 +1,15 @@
+.services__wrapper {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  height: 200px;
+  align-items: center;
+  width: 30%;
+}
+
+.services__title,
+.services__description {
+  font-family: sans-serif;
+  text-align: center;
+}

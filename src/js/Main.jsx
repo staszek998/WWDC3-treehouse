@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import Nav from "./sections/Nav";
 import Header from "./sections/Header";
+import Intro from "./sections/Intro";
 
 class Main extends Component {
   render() {
@@ -8,6 +9,7 @@ class Main extends Component {
       <div>
         <Nav />
         <Header />
+        <Intro />
       </div>
     );
   }

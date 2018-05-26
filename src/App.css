@@ -136,6 +136,18 @@ div.container {
       width: 960px;
       margin: 0 auto; } }
 
+.section-title {
+  font-weight: bold;
+  font-size: 30px; }
+
+.section-subtitle {
+  font-size: 20px;
+  margin-top: 10px; }
+
+.section-subtitle,
+.section-title {
+  font-family: sans-serif; }
+
 .button-green {
   color: white;
   height: 60px;
@@ -144,6 +156,20 @@ div.container {
   background-color: #7bc575;
   padding: 0 30px;
   font-weight: bold; }
+
+.services__wrapper {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  height: 200px;
+  align-items: center;
+  width: 30%; }
+
+.services__title,
+.services__description {
+  font-family: sans-serif;
+  text-align: center; }
 
 .nav {
   display: flex;
@@ -194,3 +220,19 @@ nav a {
 .header__title {
   font-size: 60px;
   text-align: center; }
+
+.intro__professional-services {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px; }
+
+.services {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+  height: 300px; }

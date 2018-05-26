@@ -6,3 +6,18 @@ div.container {
     margin: 0 auto;
   }
 }
+
+.section-title {
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.section-subtitle {
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+.section-subtitle,
+.section-title {
+  font-family: sans-serif;
+}
