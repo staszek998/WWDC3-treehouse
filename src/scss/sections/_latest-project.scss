@@ -1,0 +1,25 @@
+.latest-project {
+  background-color: white;
+  background-image: url("./images/latest-project/isometric-ipad-air.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right;
+  padding-top: 50px;
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+}
+
+.latest-project__content {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: flex-start;
+  max-width: 500px;
+}

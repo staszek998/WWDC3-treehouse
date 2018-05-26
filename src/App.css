@@ -185,6 +185,35 @@ div.container {
     margin-left: 10px;
     font-family: sans-serif; }
 
+.latest-project__feature {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: nowrap;
+  margin: 10px 0; }
+
+.feature__wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: nowrap;
+  margin-left: 10px; }
+
+.feature__image {
+  border: 3px solid black;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  position: relative; }
+  .feature__image img {
+    position: absolute;
+    height: 60%;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%); }
+
 .nav {
   display: flex;
   flex-direction: row;
@@ -289,3 +318,25 @@ nav a {
 
 .just-relax__subtitle {
   max-width: 800px; }
+
+.latest-project {
+  background-color: white;
+  background-image: url("./images/latest-project/isometric-ipad-air.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right;
+  padding-top: 50px; }
+  .latest-project .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center; }
+
+.latest-project__content {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: flex-start;
+  max-width: 500px; }
