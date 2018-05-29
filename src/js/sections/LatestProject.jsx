@@ -17,9 +17,7 @@ class LatestProject extends Component {
           </h4>
           <div className="latest-project__content">
             <h5 className="latest-project__heading">DEVELOPING A FRAMEWORK</h5>
-            <p className="latest-project__paragraph">
-              {shortLorem} {shortLorem}
-            </p>
+            <p className="latest-project__paragraph">{shortLorem}</p>
             <Feature
               imgSrc={iconBasket}
               imgAlt="Basket icon"

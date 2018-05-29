@@ -3,8 +3,8 @@
   background-image: url("./images/latest-project/isometric-ipad-air.png");
   background-size: 60%;
   background-repeat: no-repeat;
-  background-position: 1200px 150px;
-  padding: 50px 0;
+  background-position: 1000px 250px;
+  padding: 100px 0;
 
   .container {
     display: flex;
@@ -24,13 +24,37 @@
   align-items: flex-start;
   max-width: 500px;
   align-self: flex-start;
+
+  a {
+    font-size: 16px;
+    letter-spacing: 0px;
+    color: rgb(124, 197, 118);
+    font-family: "Montserrat Bold";
+    text-decoration: none;
+    margin-top: 20px;
+  }
 }
 
 .latest-project__heading {
-  font-size: 20px;
-  font-weight: bold;
+  font-size: 18px;
+  letter-spacing: 0px;
+  line-height: 75px;
+  color: rgb(34, 34, 34);
+  font-family: "Montserrat Bold";
 }
 
 .latest-project__paragraph {
-  margin: 20px 0;
+  font-size: 16px;
+  letter-spacing: 0px;
+  color: rgb(119, 119, 119);
+  font-family: "Roboto Slab";
+  line-height: 24px;
+
+  &:first-of-type {
+    margin-bottom: 20px;
+  }
+
+  &:last-of-type {
+    margin-top: 20px;
+  }
 }

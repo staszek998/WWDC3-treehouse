@@ -247,13 +247,13 @@ div.container {
   justify-content: center;
   align-items: flex-start;
   flex-wrap: nowrap;
-  margin-left: 10px; }
+  margin-left: 20px; }
 
 .feature__image {
   border: 3px solid black;
   border-radius: 50%;
-  width: 50px;
-  height: 50px;
+  width: 66px;
+  height: 66px;
   position: relative; }
   .feature__image img {
     position: absolute;
@@ -264,8 +264,15 @@ div.container {
 
 .feature__title {
   font-size: 18px;
-  font-weight: bolder;
-  margin-bottom: 5px; }
+  letter-spacing: 0px;
+  color: #222222;
+  font-family: "Montserrat Bold"; }
+
+.feature__description {
+  font-size: 16px;
+  letter-spacing: 0px;
+  color: #777777;
+  font-family: "Roboto Slab"; }
 
 .quotation {
   display: flex;
@@ -466,8 +473,8 @@ nav a {
   background-image: url("./images/latest-project/isometric-ipad-air.png");
   background-size: 60%;
   background-repeat: no-repeat;
-  background-position: 1200px 150px;
-  padding: 50px 0; }
+  background-position: 1000px 250px;
+  padding: 100px 0; }
   .latest-project .container {
     display: flex;
     flex-direction: column;
@@ -484,13 +491,31 @@ nav a {
   align-items: flex-start;
   max-width: 500px;
   align-self: flex-start; }
+  .latest-project__content a {
+    font-size: 16px;
+    letter-spacing: 0px;
+    color: #7cc576;
+    font-family: "Montserrat Bold";
+    text-decoration: none;
+    margin-top: 20px; }
 
 .latest-project__heading {
-  font-size: 20px;
-  font-weight: bold; }
+  font-size: 18px;
+  letter-spacing: 0px;
+  line-height: 75px;
+  color: #222222;
+  font-family: "Montserrat Bold"; }
 
 .latest-project__paragraph {
-  margin: 20px 0; }
+  font-size: 16px;
+  letter-spacing: 0px;
+  color: #777777;
+  font-family: "Roboto Slab";
+  line-height: 24px; }
+  .latest-project__paragraph:first-of-type {
+    margin-bottom: 20px; }
+  .latest-project__paragraph:last-of-type {
+    margin-top: 20px; }
 
 .culture-and-values {
   background-color: lightgray;
