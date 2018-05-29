@@ -154,6 +154,18 @@ div.container {
 .sans-serif {
   font-family: sans-serif; }
 
+@font-face {
+  font-family: "Montserrat";
+  src: url("./fonts/montserrat/Montserrat-Medium.otf"); }
+
+@font-face {
+  font-family: "Montserrat Bold";
+  src: url("./fonts/montserrat/Montserrat-Bold.otf"); }
+
+@font-face {
+  font-family: "Roboto Slab";
+  src: url("./fonts/roboto-slab/RobotoSlab-Regular.ttf"); }
+
 .button-green {
   color: white;
   height: 60px;
@@ -293,7 +305,12 @@ div.container {
 
 nav a {
   margin: 0 10px;
-  font-family: sans-serif; }
+  font-size: 14px;
+  line-height: 41px;
+  color: #777777;
+  font-family: "Montserrat";
+  text-align: center;
+  text-decoration: none; }
   nav a:first-child {
     margin-left: 0; }
   nav a:last-child {
@@ -305,8 +322,15 @@ nav a {
   flex-wrap: nowrap;
   justify-content: space-between;
   align-items: center; }
+  .nav__logo img {
+    width: 28px; }
   .nav__logo span {
-    font-family: sans-serif; }
+    font-size: 18px;
+    letter-spacing: 0px;
+    line-height: 41px;
+    color: #555555;
+    font-family: "Montserrat Bold";
+    margin-left: 5px; }
 
 .header__background {
   background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("./images/header.png");
