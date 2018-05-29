@@ -8,7 +8,15 @@ class FooterItem extends Component {
           className="item__image"
           style={{ backgroundImage: `url(${this.props.imgSrc})` }}
         />
-        <span className="item__text sans-serif">{this.props.text}</span>
+        <span className="item__text sans-serif">
+          {this.props.text}
+          {this.props.twitterPost && (
+            <span className="item__time-stamp">
+              <br />
+              {this.props.timeStamp}
+            </span>
+          )}
+        </span>
       </div>
     );
   }

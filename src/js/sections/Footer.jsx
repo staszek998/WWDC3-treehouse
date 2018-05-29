@@ -81,11 +81,15 @@ class Footer extends Component {
                 imgSrc={twitterLogo}
                 imgAlt={"Twitter logo"}
                 text="Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae vel modi, officia perferendis molestias possimus aliquam minus non cupiditate quia placeat velit harum excepturi libero, voluptatem quidem. Vero, laborum."
+                twitterPost={true}
+                timeStamp="12.04.2018"
               />
               <FooterItem
                 imgSrc={twitterLogo}
                 imgAlt={"Twitter logo"}
                 text="Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae vel modi, officia perferendis molestias possimus aliquam minus non cupiditate quia placeat velit harum excepturi libero, voluptatem quidem. Vero, laborum."
+                twitterPost={true}
+                timeStamp="23.05.2018"
               />
             </div>
           </div>
