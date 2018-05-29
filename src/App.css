@@ -147,8 +147,7 @@ div.container {
   font-size: 20px;
   margin-top: 10px; }
 
-.section-subtitle,
-.section-title {
+* {
   font-family: sans-serif; }
 
 .button-green {
@@ -213,6 +212,11 @@ div.container {
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%); }
+
+.feature__title {
+  font-size: 18px;
+  font-weight: bolder;
+  margin-bottom: 5px; }
 
 .nav {
   display: flex;
@@ -322,10 +326,10 @@ nav a {
 .latest-project {
   background-color: white;
   background-image: url("./images/latest-project/isometric-ipad-air.png");
-  background-size: contain;
+  background-size: 60%;
   background-repeat: no-repeat;
-  background-position: right;
-  padding-top: 50px; }
+  background-position: 1200px 150px;
+  padding: 50px 0; }
   .latest-project .container {
     display: flex;
     flex-direction: column;
@@ -334,9 +338,18 @@ nav a {
 
 .latest-project__content {
   margin-top: 50px;
+  width: 50%;
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
   justify-content: space-around;
   align-items: flex-start;
-  max-width: 500px; }
+  max-width: 500px;
+  align-self: flex-start; }
+
+.latest-project__heading {
+  font-size: 20px;
+  font-weight: bold; }
+
+.latest-project__paragraph {
+  margin: 20px 0; }

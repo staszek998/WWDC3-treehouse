@@ -20,11 +20,26 @@ class LatestProject extends Component {
             <p className="latest-project__paragraph">
               {shortLorem} {shortLorem}
             </p>
-            <Feature imgSrc={iconBasket} imgAlt='Basket icon' title='E-Commerce ready' description='Repudiandae vel modi, officia perferendis molestias.' />
-            <Feature imgSrc={iconLaptop} imgAlt='Laptop icon' title='Powerful SEO Features' description='Repudiandae vel modi, officia perferendis molestias.'/>
-            <Feature imgSrc={iconLock} imgAlt='Lock icon' title='Secure Encryption' description='Repudiandae vel modi, officia perferendis molestias.'/>
+            <Feature
+              imgSrc={iconBasket}
+              imgAlt="Basket icon"
+              title="E-Commerce ready"
+              description="Repudiandae vel modi, officia perferendis molestias."
+            />
+            <Feature
+              imgSrc={iconLaptop}
+              imgAlt="Laptop icon"
+              title="Powerful SEO Features"
+              description="Repudiandae vel modi, officia perferendis molestias."
+            />
+            <Feature
+              imgSrc={iconLock}
+              imgAlt="Lock icon"
+              title="Secure Encryption"
+              description="Repudiandae vel modi, officia perferendis molestias."
+            />
             <p className="latest-project__paragraph">{shortLorem}</p>
-            <a href="#">VIEW DETAILS</a>
+            <a href="#">VIEW DETAILS &rarr;</a>
           </div>
         </div>
       </section>
