@@ -6,8 +6,15 @@
   align-items: center;
   height: 30px;
 
+  &:last-of-type {
+    margin-bottom: 20px;
+  }
+
   span {
     margin-left: 10px;
-    font-family: sans-serif;
+    font-size: 16px;
+    letter-spacing: 0px;
+    color: rgb(204, 204, 204);
+    font-family: "Roboto Slab";
   }
 }

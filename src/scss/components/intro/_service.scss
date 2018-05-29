@@ -3,13 +3,31 @@
   flex-direction: column;
   flex-wrap: nowrap;
   justify-content: space-between;
-  height: 200px;
   align-items: center;
   width: 30%;
 }
 
-.services__title,
+.services__title {
+  font-size: 18px;
+  letter-spacing: 0px;
+  line-height: 75px;
+  color: rgb(34, 34, 34);
+  font-family: "Montserrat Bold";
+}
+
 .services__description {
-  font-family: sans-serif;
+  font-size: 14px;
+  letter-spacing: 0px;
+  color: rgb(119, 119, 119);
+  font-family: "Roboto Slab";
   text-align: center;
+  line-height: 20px;
+}
+
+.services__image {
+  width: 55px;
+  height: 55px;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
 }

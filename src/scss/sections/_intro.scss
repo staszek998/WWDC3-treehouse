@@ -4,7 +4,7 @@
   flex-wrap: nowrap;
   justify-content: center;
   align-items: center;
-  padding-top: 20px;
+  padding-top: 50px;
 }
 
 .services {
@@ -13,7 +13,7 @@
   flex-wrap: nowrap;
   justify-content: space-between;
   align-items: center;
-  height: 300px;
+  margin: 100px 0;
 }
 
 .intro__just-relax {
@@ -22,7 +22,7 @@
   flex-wrap: nowrap;
   justify-content: flex-end;
   align-items: center;
-  height: 500px;
+  height: 600px;
 }
 
 .just-relax__gear {
@@ -43,15 +43,30 @@
   background-repeat: no-repeat;
   width: 66.66%;
   height: 100%;
-  padding: 50px;
+  padding: 100px;
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
   justify-content: space-around;
   align-items: flex-start;
 
-  span {
+  .section-title,
+  .section-subtitle {
+    text-align: left;
     color: white;
+  }
+
+  .section-title {
+    line-height: initial;
+    span {
+      color: #7bc575;
+    }
+  }
+
+  .section-subtitle {
+    line-height: 24px;
+    color: rgb(204, 204, 204);
+    margin-bottom: 20px;
   }
 }
 

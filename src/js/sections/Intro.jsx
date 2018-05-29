@@ -42,10 +42,12 @@ class Intro extends Component {
           <div className="just-relax__gear" />
           <div className="just-relax__content">
             <span className="section-title">
-              JUST RELAX &<br />
+              JUST RELAX <span>&</span> <br />
               LET US DO THE HEAVY LIFTING
             </span>
-            <span className="section-subtitle just-relax__subtitle">{shortLorem}</span>
+            <span className="section-subtitle just-relax__subtitle">
+              {shortLorem}
+            </span>
             <ListItem itemText="Initial Setup & Customisations" />
             <ListItem itemText="Regular Updates" />
             <ListItem itemText="Round The Clock Support" />
