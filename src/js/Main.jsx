@@ -6,6 +6,7 @@ import LatestProject from "./sections/LatestProject";
 import CultureAndValues from "./sections/Culture&Values";
 import Clients from "./sections/Clients";
 import Contact from "./sections/Contact";
+import Partners from "./sections/Partners";
 
 class Main extends Component {
   render() {
@@ -18,6 +19,7 @@ class Main extends Component {
         <CultureAndValues />
         <Clients />
         <Contact />
+        <Partners />
       </div>
     );
   }
