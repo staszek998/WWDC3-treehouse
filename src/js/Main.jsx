@@ -5,6 +5,7 @@ import Intro from "./sections/Intro";
 import LatestProject from "./sections/LatestProject";
 import CultureAndValues from "./sections/Culture&Values";
 import Clients from "./sections/Clients";
+import Contact from "./sections/Contact";
 
 class Main extends Component {
   render() {
@@ -16,6 +17,7 @@ class Main extends Component {
         <LatestProject />
         <CultureAndValues />
         <Clients />
+        <Contact />
       </div>
     );
   }

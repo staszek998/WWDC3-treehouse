@@ -474,6 +474,28 @@ nav a {
 .description__text {
   text-align: center; }
 
+.contact {
+  background-color: #5ed271; }
+  .contact .container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 0; }
+  .contact .section-title {
+    color: white; }
+
+.contact__button {
+  width: 200px;
+  height: 50px;
+  background: none;
+  color: white;
+  border: 3px solid white;
+  border-radius: 5px;
+  margin-top: 50px;
+  font-weight: bolder; }
+
 .clients {
   background-color: white;
   padding: 50px 0; }
