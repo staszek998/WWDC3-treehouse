@@ -277,21 +277,43 @@ div.container {
 .quotation {
   display: flex;
   flex-wrap: nowrap;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   width: 100%;
   margin-top: 50px; }
 
 .quotation--first {
   flex-direction: row; }
+  .quotation--first .quotation__text::before {
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+    border-right: 23px solid #f9f9f9;
+    position: absolute;
+    content: "";
+    left: -23px;
+    top: 50%;
+    transform: translateY(-50%); }
 
 .quotation--second {
   flex-direction: row-reverse; }
+  .quotation--second .quotation__text::before {
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+    border-left: 23px solid #f9f9f9;
+    position: absolute;
+    content: "";
+    right: -23px;
+    top: 50%;
+    transform: translateY(-50%); }
 
 .quotation__image {
   background-color: lightgray;
-  width: 200px;
-  height: 200px;
+  width: 220px;
+  height: 220px;
   border-radius: 50%;
   background-size: cover;
   background-position: center;
@@ -299,21 +321,28 @@ div.container {
   border: 3px solid black; }
 
 .quotation__text {
-  height: 150px;
-  width: 700px;
+  width: 642px;
+  height: 173px;
+  background-color: #f9f9f9;
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
   justify-content: center;
   align-items: center;
-  background-color: lightgray;
-  padding: 20px; }
+  padding: 20px;
+  position: relative; }
   .quotation__text .text__body {
-    font-size: 20px; }
+    font-size: 22px;
+    line-height: 28px;
+    color: #777777;
+    font-family: "Roboto Slab";
+    text-align: center; }
   .quotation__text .text__author {
-    margin-top: 10px;
     font-size: 18px;
-    color: #5ed271; }
+    line-height: 36px;
+    color: #7cc576;
+    font-family: "Roboto Slab";
+    text-align: center; }
 
 .footer-item {
   display: flex;
