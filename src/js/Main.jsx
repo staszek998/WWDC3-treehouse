@@ -7,6 +7,7 @@ import CultureAndValues from "./sections/Culture&Values";
 import Clients from "./sections/Clients";
 import Contact from "./sections/Contact";
 import Partners from "./sections/Partners";
+import Footer from "./sections/Footer";
 
 class Main extends Component {
   render() {
@@ -20,6 +21,7 @@ class Main extends Component {
         <Clients />
         <Contact />
         <Partners />
+        <Footer />
       </div>
     );
   }

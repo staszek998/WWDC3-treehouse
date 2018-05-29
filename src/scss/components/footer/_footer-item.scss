@@ -1,0 +1,22 @@
+.footer-item {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-top: 10px;
+}
+
+.item__image {
+  height: 30px;
+  width: 30px;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-right: 15px;
+}
+
+.item__text {
+  color: white;
+  max-width: 80%;
+}
