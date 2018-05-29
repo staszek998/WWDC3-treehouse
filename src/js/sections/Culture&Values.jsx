@@ -1,4 +1,7 @@
 import React, { Component } from "react";
+import iconMusic from "../../images/culture-&-values/icon-music.png";
+import iconGraph from "../../images/culture-&-values/icon-graph.png";
+import iconStar from "../../images/culture-&-values/icon-star.png";
 
 const shortLorem =
   "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae vel modi, officia perferendis molestias possimus aliquam minus non cupiditate quia placeat velit harum excepturi libero, voluptatem quidem. Vero, laborum.";
@@ -15,15 +18,23 @@ class CultureAndValues extends Component {
           <div className="culture__wrapper">
             <div className="culture__images">
               <div className="images__circle">
-                <img src="" alt="" className="images__image" />
+                <img
+                  src={iconMusic}
+                  alt="Music icon"
+                  className="images__image"
+                />
               </div>
               <div className="images__hr" />
               <div className="images__circle">
-                <img src="" alt="" className="images__image" />
+                <img
+                  src={iconGraph}
+                  alt="Graph icon"
+                  className="images__image"
+                />
               </div>
               <div className="images__hr" />
               <div className="images__circle">
-                <img src="" alt="" className="images__image" />
+                <img src={iconStar} alt="Star icon" className="images__image" />
               </div>
             </div>
             <div className="culture__description">
