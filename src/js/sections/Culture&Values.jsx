@@ -11,8 +11,8 @@ class CultureAndValues extends Component {
     return (
       <div className="culture-and-values">
         <div className="container">
-          <h2 className="section-title sans-serif">CULTURE & VALUES</h2>
-          <h4 className="section-subtitle sans-serif">
+          <h2 className="section-title">CULTURE & VALUES</h2>
+          <h4 className="section-subtitle">
             Lorem ipsum dolor sit amet consectetur adipisicing elit.
           </h4>
           <div className="culture__wrapper">
