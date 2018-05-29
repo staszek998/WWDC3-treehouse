@@ -167,13 +167,18 @@ div.container {
   src: url("./fonts/roboto-slab/RobotoSlab-Regular.ttf"); }
 
 .button-green {
-  color: white;
+  padding: 0 30px;
   height: 60px;
-  width: auto;
   border-radius: 30px;
   background-color: #7bc575;
-  padding: 0 30px;
-  font-weight: bold; }
+  font-size: 15px;
+  letter-spacing: 0px;
+  line-height: 43px;
+  color: white;
+  font-family: "Montserrat Bold";
+  text-align: center;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.7);
+  border: none; }
 
 .services__wrapper {
   display: flex;
@@ -335,7 +340,7 @@ nav a {
 .header__background {
   background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("./images/header.png");
   background-size: cover;
-  background-position: center;
+  background-position: bottom;
   background-repeat: no-repeat;
   height: 600px; }
 
@@ -348,16 +353,22 @@ nav a {
 
 .header__text {
   margin: 20px 0;
-  font-size: 20px; }
+  font-size: 20px;
+  letter-spacing: 0px;
+  color: #cccccc;
+  font-family: "Roboto Slab";
+  text-align: center; }
 
 .header__text,
 .header__title {
-  font-family: sans-serif;
-  color: white;
-  font-weight: bold; }
+  color: white; }
 
 .header__title {
   font-size: 60px;
+  letter-spacing: -3px;
+  line-height: 65px;
+  color: white;
+  font-family: "Montserrat Bold";
   text-align: center; }
 
 .intro__professional-services {
