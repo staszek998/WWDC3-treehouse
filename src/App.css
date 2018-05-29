@@ -186,6 +186,8 @@ div.container {
   text-align: center;
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.7);
   border: none; }
+  .button-green:hover {
+    cursor: pointer; }
 
 .services__wrapper {
   display: flex;
@@ -632,7 +634,8 @@ nav a {
   line-height: 23px; }
 
 .contact {
-  background-color: #5ed271; }
+  background-color: #5ed271;
+  height: 250px; }
   .contact .container {
     display: flex;
     flex-direction: column;
@@ -644,14 +647,21 @@ nav a {
     color: white; }
 
 .contact__button {
-  width: 200px;
-  height: 50px;
   background: none;
   color: white;
   border: 3px solid white;
-  border-radius: 5px;
   margin-top: 20px;
-  font-weight: bolder; }
+  font-weight: bolder;
+  width: 173px;
+  height: 46px;
+  border-radius: 4px;
+  border: 3px solid #ffffff;
+  font-size: 18px;
+  letter-spacing: 0px;
+  line-height: 41px;
+  font-family: "Montserrat Bold"; }
+  .contact__button:hover {
+    cursor: pointer; }
 
 .clients {
   background-color: white;

@@ -5,7 +5,7 @@ class Contact extends Component {
     return (
       <div className="contact">
         <div className="container">
-          <h2 className="section-title sans-serif">
+          <h2 className="section-title">
             READY TO TALK ABOUT YOUR NEXT PROJECT?
           </h2>
           <button className="contact__button">CONTACT US</button>
