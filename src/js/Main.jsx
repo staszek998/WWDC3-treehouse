@@ -3,6 +3,7 @@ import Nav from "./sections/Nav";
 import Header from "./sections/Header";
 import Intro from "./sections/Intro";
 import LatestProject from "./sections/LatestProject";
+import CultureAndValues from "./sections/Culture&Values";
 
 class Main extends Component {
   render() {
@@ -12,6 +13,7 @@ class Main extends Component {
         <Header />
         <Intro />
         <LatestProject />
+        <CultureAndValues />
       </div>
     );
   }
